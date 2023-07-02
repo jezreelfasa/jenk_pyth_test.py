@@ -6,10 +6,5 @@ stages {
         sh 'python3 --version'
       }
     }
-    stage('userdata') {
-      steps {
-        sh 'userdata'
-      }
-    }
   }
 }
